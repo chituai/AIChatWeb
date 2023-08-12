@@ -185,7 +185,7 @@ export function SideBar(props: {
         <div
           className={styles["sidebar-title"]}
           dangerouslySetInnerHTML={{
-            __html: websiteConfigStore.mainTitle || "AI Chat",
+            __html: websiteConfigStore.mainTitle || "赤 兔 AI",
           }}
           data-tauri-drag-region
         ></div>

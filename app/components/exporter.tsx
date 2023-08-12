@@ -450,7 +450,7 @@ export function ImagePreviewer(props: {
 
           <div style={{ zIndex: 1 }}>
             <div className={styles["main-title"]}>
-              {websiteConfigStore.title || "AI Chat"}
+              {websiteConfigStore.title || "赤 兔 AI"}
             </div>
             <div
               className={styles["sub-title"]}

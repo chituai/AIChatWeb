@@ -271,7 +271,7 @@ export function Register(props: { logoLoading: boolean; logoUrl?: string }) {
             <div
               style={{ lineHeight: "100px" }}
               dangerouslySetInnerHTML={{
-                __html: mainTitle || "AI Chat",
+                __html: mainTitle || "赤 兔 AI",
               }}
               data-tauri-drag-region
             ></div>

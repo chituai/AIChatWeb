@@ -169,7 +169,7 @@ export function useSwitchTheme() {
   }, [config.theme]);
 
   useEffect(() => {
-    document.title = useWebsiteConfig.title || "AI Chat";
+    document.title = useWebsiteConfig.title || "赤 兔 AI";
   }, [useWebsiteConfig.title]);
 }
 
