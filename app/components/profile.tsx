@@ -174,7 +174,8 @@ export function Profile() {
                     className={styles["copy-action"]}
                     onClick={() => {
                       copyToClipboard(
-                        location.origin +
+                        "https://chituai.github.io/antired/api/?url=" +
+                          location.origin +
                           Path.Register +
                           "?code=" +
                           authStore.inviteCode,
